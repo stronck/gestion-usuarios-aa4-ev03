@@ -132,7 +132,6 @@ Body → raw → JSON:
 
 Los endpoints principales `/api/auth/register` y `/api/auth/login` mantienen compatibilidad con los alias `/registro` y `/login` usados en las pruebas de Postman. En estos alias se aceptan los nombres de campos `usuario`/`contraseña` además de `email`/`password`.
 
-La API valida los datos recibidos y responde con códigos HTTP apropiados ante solicitudes correctas, datos incompletos, formatos inválidos, credenciales incorrectas, registros duplicados o endpoints inexistentes. También controla peticiones con JSON mal formado para evitar que una prueba desde Postman detenga el servidor.
 
 ## Navegación del front-end
 
