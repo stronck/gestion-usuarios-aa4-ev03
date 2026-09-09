@@ -1,0 +1,7 @@
+{
+  "name": "gestion-usuarios-client",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Front-end React sin Vite para GA7-220501096-AA4-EV03",
+  "scripts": {}
+}
