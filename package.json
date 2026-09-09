@@ -1,0 +1,17 @@
+{
+  "name": "gestion-usuarios-aa4-ev03",
+  "version": "1.0.0",
+  "description": "API y aplicación web de gestión de usuarios para GA7-220501096-AA4-EV03",
+  "main": "server/app.js",
+  "scripts": {
+    "start": "node server/app.js",
+    "dev": "node server/app.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "mongoose": "^8.13.2"
+  }
+}
